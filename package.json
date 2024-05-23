@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:pug": "pug src/views -o dist",
+    "build:scss": "node-sass src/styles/style.scss dist/style.css",
+    "build:js": "babel src/scripts/app.js -o dist/app.js",
+    "build": "npm run build:pug && npm run build:scss && npm run build:js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +17,7 @@
     "@babel/cli": "^7.24.5",
     "@babel/core": "^7.24.5",
     "@babel/preset-env": "^7.24.5",
+    "node-sass": "^9.0.0",
     "pug": "^3.0.2",
     "pug-cli": "^1.0.0-alpha6"
   }

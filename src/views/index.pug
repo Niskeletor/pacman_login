@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+    title Pacman Login
+    link(rel="stylesheet" href="style.css")
+  body
+    #app
+      transition(name="fade" mode="out-in" appear v-cloak)
+        form(@submit="checkPassword" v-if="!logged_in")
+          label(for="1up") 1up
+          input(ref="name" id="1up" type="text")
+
+          label(for="password") Password
+          .scene-wrapper
+            input(
+              @keyup.enter="runPacman"
+              ref="password"
+              id="password"
+              type="password"
+              v-model="password_entered"
+              :class="{invalid : password_invalid}"
+              :disabled="disableInput()"
+            )
+
+            transition(:name="transitionPacman" v-on:after-enter="checkPassword")
+              .pac-wrapper(v-if="animate_pacman")
+                .pacman
+
+            transition(name="cover")
+              .input-cover(v-if="animate_pacman || animate_ghost")
+
+            transition(name="ghost" v-on:after-enter="resetAnimation")
+              .ghost-wrapper(v-if="animate_ghost")
+                .ghost(:class="{runaway : password_match}")
+
+          input(
+            @click="runPacman"
+            ref="start"
+            type="button"
+            value="Press Start"
+            :disabled="disableInput()"
+          )
+
+        .logged-in(v-else)
+          p You are now logged in.
+          p Game over!
+          input(
+            @click="startOver"
+            ref="start"
+            type="button"
+            value="Login Again!"
+          )
+    script(src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js")
+    script(src="app.js")
