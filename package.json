@@ -8,7 +8,8 @@
     "build:scss": "node-sass src/styles/style.scss dist/style.css",
     "build:js": "babel src/scripts/app.js -o dist/app.js",
     "build": "npm run build:pug && npm run build:scss && npm run build:js",
-    "deploy": "vercel --prod"
+    "deploy": "vercel --prod",
+    "start": "node_modules/.bin/live-server dist"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "@babel/cli": "^7.24.5",
     "@babel/core": "^7.24.5",
     "@babel/preset-env": "^7.24.5",
+    "live-server": "^1.2.2",
     "node-sass": "^9.0.0",
     "pug": "^3.0.2",
     "pug-cli": "^1.0.0-alpha6"
