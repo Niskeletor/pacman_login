@@ -7,7 +7,8 @@
     "build:pug": "pug src/views -o dist",
     "build:scss": "node-sass src/styles/style.scss dist/style.css",
     "build:js": "babel src/scripts/app.js -o dist/app.js",
-    "build": "npm run build:pug && npm run build:scss && npm run build:js"
+    "build": "npm run build:pug && npm run build:scss && npm run build:js",
+    "deploy": "vercel --prod"
   },
   "keywords": [],
   "author": "",
