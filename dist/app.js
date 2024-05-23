@@ -61,7 +61,11 @@ var app = new Vue({
   },
   watch: {
     password_entered: function password_entered() {
-      if (this.password_entered === this.password_stored) this.password_match = true;
+      if (this.password_entered === this.password_stored) {
+        this.password_match = true;
+      } else {
+        this.password_match = false;
+      }
     }
   },
   mounted: function mounted() {

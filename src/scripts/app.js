@@ -25,7 +25,7 @@ const app = new Vue({
   
         if (this.password_entered !== this.password_stored) {
           this.password_invalid = true;
-          this.$refs.start.value = 'Incorrect Password!'
+          this.$refs.start.value = 'Incorrect Password!';
         } else {
           this.$refs.start.value = 'Logging in';
         }
@@ -52,7 +52,7 @@ const app = new Vue({
       },
   
       runPacman(e) {
-        e.preventDefault()
+        e.preventDefault();
         this.animate_pacman = true;
         this.$refs.start.value = 'Checking...';
       },
@@ -67,12 +67,15 @@ const app = new Vue({
   
     watch: {
       password_entered() {
-        if (this.password_entered === this.password_stored) this.password_match = true;
+        if (this.password_entered === this.password_stored) {
+          this.password_match = true;
+        } else {
+          this.password_match = false;
+        }
       }
     },
   
     mounted() {
       this.$refs.name.focus();
     }
-  })
-  
+  });

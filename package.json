@@ -1,6 +1,6 @@
 {
   "name": "pacman_login",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,8 +12,8 @@
     "start": "node_modules/.bin/live-server dist"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Niscode",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
     "@babel/cli": "^7.24.5",
