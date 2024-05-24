@@ -69,8 +69,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Original concept and initial codebase by [Ryan Mulligan](https://codepen.io/hexagoncircle/pen/XEYBBp).
 
-¡Claro, sin problema! Aquí tienes las etiquetas con "Niscode" y "Pacman" en un tamaño más pequeño, y la de "MIT License" con el mismo estilo grande:
-
 MIT License:
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJTUUH5gUEEgMtWvhVHQAAAWJJREFUSMftlM9LVGEYxr/vvOPM6KSRWWamZWEEEVSYFUEU9FEPPQUVQkFvPVQvvfTSQ/+F0IMFEdFDPdVLlGUUbRGSWaJZmrM5c+Z17/Wc3Tn3Oc/kTNqBxe7lWp7fBd/lWxEhxNKEEEtjZn8DZFkWAHxJkiTMrPr9/rvNZvNWt9v9Yn3/BxoAHMex7XY7vb6+/qTRaPxYW1v7VGKMTQCYmSdJkjCzZDabHfV6vbdra2ufzOxIkiQFZlYAOFLSHIBjZgvHcWbz+fxXPp9/Uw6PN+bz+Vc7Ozv3Hn+aPDx4fPr6qPdUkqTXNwAYAFBVVQFQVVUlSUqSJEVE+Xw+D4BbAFBV1QBwPp1OX4rIHQDUbDYfAMDm5uaX/8Xm5uaXIvJARPIAOBwOX4nIHQDUarW+AUCn03kPAEtLS8/X1tZeAsDx8fFzEbkNAEtLS8/7/f6PSqXyGgBOTk6eAsDi4uJTVVVPAODs7OxFpVJ5CQDdbvctAJRKpSdEJADQ6/XeAkCxWHxMRD0AuLi4+AmAiKher38HgEKh8ICI+gBwfX39GwBKpdJjIhoAwM3NzS8AyOfzD4ioDwBXV1e/AKBQKNwnohEAXF5e/gZARJTP5+8S0RgALi4ufgFALpe7Q0QCALper/8AQCKR+EZEEgDUbDZ/A0AikfhKRPcAUKPR+Pu/8BfOsUMnJiHqmAAAAABJRU5ErkJggg==)](https://opensource.org/licenses/MIT)
