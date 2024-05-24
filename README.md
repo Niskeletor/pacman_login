@@ -33,10 +33,10 @@ npm install
 To run the project locally:
 
 ```bash
-yarn dev
+npm start
 ```
 
-Visit `http://localhost:3000` to see the Pacman Login Page in action.
+Visit `http://localhost:8080` to see the Pacman Login Page in action.
 
 ### Deployment
 
